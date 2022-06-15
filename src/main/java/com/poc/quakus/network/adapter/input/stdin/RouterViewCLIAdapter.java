@@ -2,9 +2,9 @@ package com.poc.quakus.network.adapter.input.stdin;
 
 import com.poc.quakus.network.adapter.output.file.RouterViewFileAdapter;
 import com.poc.quakus.network.application.ports.input.RouterViewInputPort;
-import com.poc.quakus.network.domain.Router;
-import com.poc.quakus.network.domain.RouterType;
+import com.poc.quakus.network.domain.entity.Router;
 import com.poc.quakus.network.application.usecase.RouterViewUseCase;
+import com.poc.quakus.network.domain.vo.RouterType;
 
 import java.util.List;
 

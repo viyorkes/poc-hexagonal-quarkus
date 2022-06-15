@@ -1,6 +1,6 @@
 package com.poc.quakus.network.application.ports.output;
 
-import com.poc.quakus.network.domain.Router;
+import com.poc.quakus.network.domain.entity.Router;
 
 import java.util.List;
 
