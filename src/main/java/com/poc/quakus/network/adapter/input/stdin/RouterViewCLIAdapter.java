@@ -17,8 +17,8 @@ public class RouterViewCLIAdapter {
     }
 
     public List<Router> obtainRelatedRouters(String type) {
-        return routerViewUseCase.getRouters(
-                Router.filterRouterByType(RouterType.valueOf(type)));
+        RouterViewUseCase.RelatedRoutersCommand relatedRoutersCommand = new RouterViewUseCase.RelatedRoutersCommand(type);
+        return routerViewUseCase.getRelatedRouters(relatedRoutersCommand);
     }
 
     private void setAdapters(){

@@ -18,10 +18,16 @@ public class SwitchId {
         return new SwitchId(UUID.randomUUID());
     }
 
+
+    public UUID getUUID() {
+        return id;
+    }
+
     @Override
     public String toString() {
         return "SwitchId{" +
                 "id='" + id + '\'' +
                 '}';
     }
+
 }

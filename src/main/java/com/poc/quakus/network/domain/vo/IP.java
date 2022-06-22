@@ -15,6 +15,9 @@ public class IP {
         this.protocol = Protocol.IPV6;
       }
     }
+    public static IP fromAddress(String address){
+        return new IP(address);
+    }
 
     @Override
     public String toString() {
@@ -22,5 +25,9 @@ public class IP {
                 "address='" + address + '\'' +
                 ", protocol=" + protocol +
                 '}';
+    }
+
+    public String getIPAddress() {
+        return address;
     }
 }
