@@ -26,9 +26,11 @@ public class RouterNetworkRestAdapter extends RouterNetworkAdapter {
             var httpserver = (HttpServer) requestParams;
             httpserver.createContext("/network/add", (exchange -> {
                 if ("GET".equals(exchange.getRequestMethod())) {
-                    var query = exchange.getRequestURI().getRawQuery();
-                    httpParams(query, params);
-                    router = this.addNetworkToRouter(params);
+               //     var query = exchange.getRequestURI().getRawQuery();
+                //    httpParams(query, params);
+               //     router = this.addNetworkToRouter(params);
+
+
                     ObjectMapper mapper = new ObjectMapper();
                     var routerJson = mapper.writeValueAsString(RouterJsonFileMapper.toJson(router));
                     exchange.getResponseHeaders().set("Content-Type", "application/json");
