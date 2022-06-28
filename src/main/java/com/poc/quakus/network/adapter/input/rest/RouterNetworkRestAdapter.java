@@ -1,4 +1,4 @@
-package com.poc.quakus.network.adapter.rest;
+package com.poc.quakus.network.adapter.input.rest;
 
 import com.poc.quakus.network.adapter.RouterNetworkAdapter;
 import com.poc.quakus.network.adapter.output.file.RouterJsonFileMapper;

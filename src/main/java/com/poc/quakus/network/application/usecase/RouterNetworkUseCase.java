@@ -8,6 +8,8 @@ import com.poc.quakus.network.domain.vo.RouterId;
 public interface RouterNetworkUseCase {
 
         Router addNetworkToRouter(RouterId routerId, Network network);
+
+        Router getRouter(RouterId routerId);
     }
 
 
