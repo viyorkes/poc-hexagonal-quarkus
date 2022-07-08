@@ -1,12 +1,12 @@
-import com.poc.quakus.network.adapter.NotifyEventWebSocketAdapter;
-import com.poc.quakus.network.adapter.input.RouterManageNetworkAdapter;
-import com.poc.quakus.network.adapter.output.file.RouterNetworkRestAdapter;
-import com.poc.quakus.network.adapter.output.file.kafka.NotifyEventKafkaAdapter;
-import com.poc.quakus.network.adapter.output.h2.RouterNetworkH2Adapter;
-import com.poc.quakus.network.application.ports.input.RouterNetworkInputPort;
-import com.poc.quakus.network.application.ports.output.NotifyEventOutputPort;
-import com.poc.quakus.network.application.usecase.RouterNetworkOutputPort;
-import com.poc.quakus.network.application.usecase.RouterNetworkUseCase;
+import com.poc.quarkus.network.adapter.NotifyEventWebSocketAdapter;
+import com.poc.quarkus.network.adapter.input.RouterManageNetworkAdapter;
+import com.poc.quarkus.network.adapter.output.file.RouterNetworkRestAdapter;
+import com.poc.quarkus.network.adapter.output.file.kafka.NotifyEventKafkaAdapter;
+import com.poc.quarkus.network.adapter.output.h2.RouterNetworkH2Adapter;
+import com.poc.quarkus.network.application.ports.input.RouterNetworkInputPort;
+import com.poc.quarkus.network.application.ports.output.NotifyEventOutputPort;
+import com.poc.quarkus.network.application.usecase.RouterNetworkOutputPort;
+import com.poc.quarkus.network.application.usecase.RouterNetworkUseCase;
 import com.sun.net.httpserver.HttpServer;
 
 import java.io.IOException;
